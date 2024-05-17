@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto ', sans-serif;
+}
+
+header{
+    background-color: #0e1de6;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #e00b0b;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+} 
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input,
+botton {
+padding: 8px;
+}
+
+button{
+    background: #20df07;
+    padding: 10px 0;
+    border:none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul{
+display: flex;
+flex-wrap: wrap;
+}
+
+ul li{
+max-width: 25%;
+list-style: none;
+position: relative;
+max-height: 280%;
+overflow-y: hidden;
+}
+
+ul li img {
+width: 100%;
+}
+.overlay-imagem-link {
+padding: 16px;
+background-color: rgba(0, 0, 0, 7);
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+opacity: 0;
+transition: all esse .5s;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#clear-button {
+    background-color: #dc3545;
+}
+
+#clear-button:hover {
+    background-color: #c82333;
+}
+
+#clear-tasks-button {
+    margin-top: 20px;
+    background-color: #dc3545;
+    width: 100%;
+}
+
+#clear-tasks-button:hover {
+    background-color: #c82333;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.completed {
+    text-decoration: line-through; 
+    color: #888; 
+}
